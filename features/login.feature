@@ -1,5 +1,6 @@
 #language: pt
 
+@login
 Funcionalidade: Login
 
     Esquema do Cenário: Tentando logar

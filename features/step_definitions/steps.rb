@@ -54,3 +54,16 @@ Então("o valor total da minha compra deve ser de {string}") do |discount|
   total = find("tr", text: "Total:")
   expect(total).to have_text discount
 end
+
+Dado("que acesso a página login") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando("eu submeto as minhas credenciais {string} e {string}") do |string, string2|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Então("devo ver a seguinte mensagem de alerta:") do |string|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
